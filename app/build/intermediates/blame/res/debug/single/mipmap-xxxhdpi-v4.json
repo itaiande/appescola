@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\androidProject\\AppEscola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_placeholder.png",
+        "source": "C:\\androidProject\\AppEscola\\app\\build\\intermediates\\exploded-aar\\com.github.oceanbrasil\\OceanLib\\1.1.4\\res\\mipmap-xxxhdpi-v4\\ic_placeholder.png"
+    },
+    {
+        "merged": "C:\\androidProject\\AppEscola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\slider_1.jpg",
+        "source": "C:\\androidProject\\AppEscola\\app\\build\\intermediates\\exploded-aar\\com.github.oceanbrasil\\OceanLib\\1.1.4\\res\\mipmap-xxxhdpi-v4\\slider_1.jpg"
+    },
+    {
+        "merged": "C:\\androidProject\\AppEscola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\androidProject\\AppEscola\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

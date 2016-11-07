@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.github.oceanbrasil\OceanLib\1.1.4\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="01a9471bb56e2e2d4d654f76e0192bd9b19a5afb">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.github.oceanbrasil-OceanLib-1.1.4_5ec38bdc85752ca8a666224070ef9870061e3380.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_2be49e616dcc8d625266255e44b6176f7b46e8d8.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_720cf64070d2ca6810baf6b0ff1323fa601e0da2.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_bbd63e68be04ae5cdc7333a61212094391df4304.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="b9718fa6b7c4e7e526eea77e5c5cd1216b361608">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_f365e5cc7e8de351bb02d7b55612401872e92cc4.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2348d8654793468847cdf4943200060859ba2859.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7676cbde33c135d4c68febecc516e2914a2f5c25.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_b1ad12e44e00107e1517a293342cdb8294c9394d.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_dad46c7142d56dc9f932144021757e36adc802da.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_02178ba535d631e052b5c86853b6ea2092aef683.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d9de2b08305d4f61412b264c4e035bf78a634e1a.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_3ba691cdbd85213f6f661c2e54f8e8a57300cef6.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_6b3ac9c8020c5c3e104cea2effd79c7d9b0d70dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Roberlândio\.gradle\caches\modules-2\files-2.1\com.github.kevinsawicki\http-request\6.0\910c844ccd4653c9f6895dc4b7adce6372a4da03\http-request-6.0.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="910c844ccd4653c9f6895dc4b7adce6372a4da03">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\http-request-6.0_fbbdee61cc649f331756184ac29bb27609d5a498.jar" />
+    </item>
+    <item
+        jar="C:\Users\Roberlândio\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\glide-3.7.0_29c5d14245f1853b7e62c888c84e7d3a70bc2460.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_70e86636acba741bd1e0bc37a06fba8bef8bb5d1.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_2cce396e71675cc31658d01512ad20fa96b9c13b.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_21b906b5d8c7f4ad4b40763cde86bc6df87c5c61.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="0505f93cb4c4575636fe23db805ac9b9571d5955">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\instant-run_cecc26e575b15c55f57286cffc578d0978a9561c.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0abb3ce13562b0fec3410037058bc001d9bcc113.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_f28fcf6ffcacccd9f9569d62d10a4ddb11a81680.jar" />
+    </item>
+    <item
+        jar="C:\Users\Roberlândio\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\gson-2.7_04dca8a4c595f09c6dfeda18a9d9508d0aa91936.jar" />
+    </item>
+    <item
+        jar="C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_efbfba6d7700167f587eb9965270f4c30b9a853e.jar" />
+    </item>
+
+</items>
