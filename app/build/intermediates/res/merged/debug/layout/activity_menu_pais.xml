@@ -30,6 +30,7 @@
         <Button
             android:id="@+id/btnOcorrenciaAvaliacao"
             android:text="Registrar OCorrência/Avaliação"
+            android:onClick="registrarOcorrencia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <View

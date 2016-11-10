@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:text="<Escola>"
+            android:text="*Escola*"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:text="<Classe Ocorrencia>"
+            android:text="Classe Ocorrencia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:text="<Categoria>"
+            android:text="Categoria"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </GridLayout>

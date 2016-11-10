@@ -16,4 +16,11 @@ public class MenuPaisActivity extends AppCompatActivity {
     public void pesquisarEscola(View view){
         startActivity(new Intent(this,PesquisaEscolaActivity.class));
     }
+
+    public void registrarOcorrencia(View view){
+
+        //startActivity(new Intent(this,AvaliacaoOcorrenciaActivity.class));
+        startActivity(new Intent(this,LoginPaisActivity.class));
+
+    }
 }

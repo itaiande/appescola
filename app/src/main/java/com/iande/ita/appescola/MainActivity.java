@@ -3,10 +3,8 @@ package com.iande.ita.appescola;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         btnEscola = (Button)findViewById(R.id.btnEscola);
         btnPais = (Button)findViewById(R.id.btnPais);
 
-        Toast.makeText(this,"ON CREATE",Toast.LENGTH_LONG).show();
-
 
     }
 
@@ -33,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
 
 
-        Toast.makeText(this,"ON START",Toast.LENGTH_LONG).show();
 
 
 
@@ -54,6 +49,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void acessoEscola(View view){
-        Log.d("BTN","TA FUNCIONANDO");
+        startActivity(new Intent(this,LoginEscolaActivity.class));
     }
 }

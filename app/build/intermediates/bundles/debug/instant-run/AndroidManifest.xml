@@ -10,6 +10,13 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
@@ -26,6 +33,13 @@
         </activity>
         <activity android:name="com.iande.ita.appescola.MenuPaisActivity" />
         <activity android:name="com.iande.ita.appescola.PesquisaEscolaActivity" />
+        <activity android:name="com.iande.ita.appescola.DetalhesEscolaActivity" />
+        <activity android:name="com.iande.ita.appescola.LoginEscolaActivity" />
+        <activity android:name="com.iande.ita.appescola.AvaliacaoOcorrenciaActivity" />
+        <activity android:name="com.iande.ita.appescola.RegistroActivity" />
+        <activity
+            android:name="com.iande.ita.appescola.LoginPaisActivity"
+            android:label="@string/title_activity_login_pais" />
     </application>
 
 </manifest>

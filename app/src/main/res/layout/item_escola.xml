@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Escola>"
+                android:text="*Escola*"
                 android:id="@+id/txtEscola"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Privada>"
+                android:text="*Privada*"
                 android:id="@+id/txtCategoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<UF>"
+                android:text="*UF*"
                 android:id="@+id/txtUF"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Cidade>"
+                android:text="Cidade Manaus"
                 android:id="@+id/txtCidade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Bairro>"
+                android:text="Cidade Nova"
                 android:id="@+id/txtBairro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

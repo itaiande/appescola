@@ -40,7 +40,7 @@ public class PesquisaEscolaActivity extends AppCompatActivity implements Request
 
 
 
-        Ocean.newRequest("http://mobile-aceite.tcu.gov.br:80/nossaEscolaRS/rest/escolas?campos=municipio,cidade,bairro,endereco,nome,esferaAdministrativa&quantidadeDeItens=10",
+        Ocean.newRequest("http://mobile-aceite.tcu.gov.br:80/nossaEscolaRS/rest/escolas?campos=municipio,email,cidade,bairro,endereco,nome,esferaAdministrativa&quantidadeDeItens=10",
                     this).get().send();
 
 

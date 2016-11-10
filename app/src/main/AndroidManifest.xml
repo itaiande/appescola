@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,6 +27,12 @@
         <activity android:name=".MenuPaisActivity" />
         <activity android:name=".PesquisaEscolaActivity" />
         <activity android:name=".DetalhesEscolaActivity" />
+        <activity android:name=".LoginEscolaActivity" />
+        <activity android:name=".AvaliacaoOcorrenciaActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity
+            android:name=".LoginPaisActivity"
+            android:label="@string/title_activity_login_pais"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml
@@ -17,8 +17,28 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:7:5-22:19
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:14:5-36:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
@@ -123,37 +143,59 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\androidProject\AppEsc
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:18:9-35
 	android:allowBackup
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.iande.ita.appescola.MainActivity
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:20:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.iande.ita.appescola.MenuPaisActivity
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:20:9-54
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:27:19-51
 activity#com.iande.ita.appescola.PesquisaEscolaActivity
-ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:21:9-69
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:28:9-60
 	android:name
-		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:21:19-57
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:28:19-57
+activity#com.iande.ita.appescola.DetalhesEscolaActivity
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:29:19-57
+activity#com.iande.ita.appescola.LoginEscolaActivity
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:30:9-57
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:30:19-54
+activity#com.iande.ita.appescola.AvaliacaoOcorrenciaActivity
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:31:9-65
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:31:19-62
+activity#com.iande.ita.appescola.RegistroActivity
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:32:9-54
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:32:19-51
+activity#com.iande.ita.appescola.LoginPaisActivity
+ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:33:9-35:74
+	android:label
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:35:13-62
+	android:name
+		ADDED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml:34:13-46
 uses-sdk
 INJECTED from C:\androidProject\AppEscola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\androidProject\AppEscola\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78

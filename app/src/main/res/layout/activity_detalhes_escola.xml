@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Escola>"
+                android:text="*Escola*"
                 android:id="@+id/txtEscola"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Privada>"
+                android:text="Privada"
                 android:id="@+id/txtCategoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<UF>"
+                android:text="UF"
                 android:id="@+id/txtUF"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Cidade>"
+                android:text="Manaus"
                 android:id="@+id/txtCidade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Bairro>"
+                android:text="Bairro teste"
                 android:id="@+id/txtBairro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Fone>"
+                android:text="Fone eskrherhew"
                 android:id="@+id/txtFone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="<Email>"
+                android:text="Email Teste"
                 android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
