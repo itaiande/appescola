@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "854177917395",
+    "firebase_url": "https://appescola-48bd3.firebaseio.com",
+    "project_id": "appescola-48bd3",
+    "storage_bucket": "appescola-48bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854177917395:android:c84d728b3bb09022",
+        "android_client_info": {
+          "package_name": "com.iande.ita.appescola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854177917395-8t0qpp8k8ebs8731pn8ff0dt3pt74sdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv59ImGtah8BAfo1e-6UTT3E-bQyssjW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

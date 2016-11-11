@@ -33,7 +33,7 @@
         jar="C:\androidProject\AppEscola\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.3"
-        sha1="e67ff98151ba08ac4896915f102155b06ac11563">
+        sha1="c62f19951eec973c2ddb8647189853e2948974db">
         <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_f365e5cc7e8de351bb02d7b55612401872e92cc4.jar" />
     </item>
     <item
@@ -138,7 +138,7 @@
         jar="C:\androidProject\AppEscola\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.3"
-        sha1="d2ab76f02220ad32996fba50ce08c4859f7a00af">
+        sha1="4b1970eebd205bc562c57d4c498fd60c9c28a5c7">
         <dex dex="C:\androidProject\AppEscola\app\build\intermediates\pre-dexed\debug\instant-run_cecc26e575b15c55f57286cffc578d0978a9561c.jar" />
     </item>
     <item

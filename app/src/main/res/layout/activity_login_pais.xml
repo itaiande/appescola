@@ -55,7 +55,6 @@
                     android:layout_height="wrap_content"
                     android:hint="Senha"
                     android:imeActionId="@+id/login"
-                    android:="@string/action_sign_in_short"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1"
