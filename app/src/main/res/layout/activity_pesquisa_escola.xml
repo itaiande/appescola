@@ -2,6 +2,8 @@
 <ScrollView android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -12,6 +14,8 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:orientation="vertical"
         tools:context="com.iande.ita.appescola.PesquisaEscolaActivity">
+
+
 
         <GridLayout
             android:layout_width="match_parent"
@@ -73,6 +77,14 @@
                 android:layout_height="wrap_content"/>
 
         </GridLayout>
+        <ProgressBar
+            android:id="@+id/pbDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_weight="2" >
+        </ProgressBar>
         <View
             android:layout_margin="10dp"
             android:layout_width="match_parent"

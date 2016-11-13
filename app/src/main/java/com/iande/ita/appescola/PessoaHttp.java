@@ -1,5 +1,7 @@
 package com.iande.ita.appescola;
 
+import android.util.Log;
+
 import com.iande.ita.appescola.modelo.Pessoa;
 
 import org.json.JSONArray;
@@ -35,6 +37,25 @@ public class PessoaHttp {
         String url = BASE_URL;
         String token = "";
         url += "/autenticar";
+                parametros.setProperty("email",email);
+        parametros.setProperty("senha",senha);
+        try {
+            HttpURLConnection conexao = abrirConexao(url,"GET",false,parametros);
+            if (conexao.getResponseCode() == HttpURLConnection.HTTP_OK){
+                token = conexao.getHeaderField("apptoken");
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return token;
+    }
+
+    public String autenticar(String email, String nomeCompleto,String senha){
+        String url = BASE_URL;
+        String token = "";
+        url += "/autenticar";
+        parametros.setProperty("nomeCompleto",nomeCompleto);
+        parametros.setProperty("nomeUsuario","TETEU");
         parametros.setProperty("email",email);
         parametros.setProperty("senha",senha);
         try {
@@ -87,7 +108,7 @@ public class PessoaHttp {
             os.close();
         }
         int responseCode = conexao.getResponseCode();
-        if (responseCode == HttpURLConnection.HTTP_OK){
+        if (responseCode == HttpURLConnection.HTTP_CREATED){
             InputStream is = conexao.getInputStream();
             String s = streamToString(is);
             is.close();
@@ -116,6 +137,7 @@ public class PessoaHttp {
                         pessoaJSON.getInt("cod"),
                         pessoaJSON.getString("email"),
                         pessoaJSON.getString("nomeUsuario"),
+                        //pessoaJSON.getString("nomeCompleto"),
                         "",
                         pessoaJSON.getBoolean("emailVerificado"),
                         "");
@@ -194,7 +216,7 @@ public class PessoaHttp {
             JSONObject jsonPessoa = new JSONObject();
             jsonPessoa.put("biografia", pessoa.getBiografia());
             jsonPessoa.put("email",pessoa.getEmail());
-            jsonPessoa.put("nomeCompleto",pessoa.getNomeUsuario());
+            jsonPessoa.put("nomeCompleto",pessoa.getNomeCompleto());
             jsonPessoa.put("senha",pessoa.getSenha());
             jsonPessoa.put("emailVerificado",pessoa.isEmailVerificado());
             String json = jsonPessoa.toString();
@@ -232,11 +254,14 @@ public class PessoaHttp {
         boolean sucesso = false;
         try {
             sucesso = enviarPessoa("POST", pessoa);
+            Log.i("TETE",pessoa.getCod()+"");
         } catch (Exception e){
             return false;
         }
         return sucesso;
     }
+
+
 
 }
 

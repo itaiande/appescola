@@ -9,6 +9,7 @@ import java.io.Serializable;
 public class Pessoa implements Serializable {
     private int cod;
     private String email;
+    private String nomeCompleto;
     private String nomeUsuario;
     private String senha;
     private boolean emailVerificado;
@@ -19,14 +20,37 @@ public class Pessoa implements Serializable {
     public Pessoa(){
     }
 
-    public Pessoa(int cod, String email, String nomeUsuario, String senha,
-           boolean emailVerificado, String biografia){
+
+    public Pessoa(String email, String nomeCompleto, String senha) {
+        this.email = email;
+        this.nomeCompleto = nomeCompleto;
+        this.senha = senha;
+    }
+
+    public Pessoa(int cod, String email, String nomeCompleto, String senha,
+                  boolean emailVerificado, String biografia){
         this.cod = cod;
         this.email = email;
-        this.nomeUsuario = nomeUsuario;
+        this.nomeCompleto = nomeCompleto;
         this.senha = senha;
         this.emailVerificado = emailVerificado;
         this.biografia = biografia;
+    }
+
+    public String getNomeCompleto() {
+        return nomeCompleto;
+    }
+
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
+    }
+
+    public String getNomeUsuario() {
+        return nomeUsuario;
+    }
+
+    public void setNomeUsuario(String nomeUsuario) {
+        this.nomeUsuario = nomeUsuario;
     }
 
     public int getCod(){
@@ -35,10 +59,6 @@ public class Pessoa implements Serializable {
 
     public String getEmail(){
         return this.email;
-    }
-
-    public String getNomeUsuario(){
-        return this.nomeUsuario;
     }
 
     public String getSenha(){
@@ -65,9 +85,6 @@ public class Pessoa implements Serializable {
         this.email = email;
     }
 
-    public void setNomeUsuario(String nomeUsuario) {
-        this.nomeUsuario = nomeUsuario;
-    }
 
     public void setSenha(String senha) {
         this.senha = senha;
